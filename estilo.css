@@ -1,0 +1,176 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #017c3f;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+}
+
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  object-fit: cover;
+}
+
+.texto h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.texto h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #020202;
+  margin: 5px 0 15px;
+}
+
+.texto p {
+  margin: 0;
+}
+
+.descricao {
+  color: #000000;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.redes a img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+.redes a img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .foto img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+  color: #3d3d3d;
+}
+
+header {
+  background: #016b2a;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #7c7c7c;
+}
+
+button {
+  background: #016321;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #016321;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projetos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  background: #016321;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/*pagina de apresetação*/
+.apresentação {
+  display: flex;
+  justify-content: center;
+}
